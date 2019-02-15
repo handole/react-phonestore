@@ -1,5 +1,5 @@
 :root{
-  --mainBlue:#2a2a72;
+  --mainBlue:#2a2a72; 
   --lightBlue:#009ffd;
   --mainWhite:#f3f3f3;
   --mainDark:#232528;
@@ -15,13 +15,37 @@ body{
 .text-title {
   font-family: 'Permanent Marker', cursive;
   letter-spacing: 0.3rem;
-  text-transform: uppercase;
+  text-transform: uppercase; 
 }
 
 .text-blue {
   color: var(--mainBlue);
 }
 
+.text-bright {
+  color: var(--lightBlue);
+}
+
 .content {
   padding-bottom: 3rem;
+}
+
+.btn-black {
+  background: transparent;
+  text-transform: capitalize;
+  font-size: 0.8rem !important;
+  coor: var(--mainDark);
+  border-radius: 0 !important;
+  border: 0.1rem solid var(--mainDark) !important; 
+}
+
+.btn-black:hover{
+  background: var(--mainDark) !important;
+  color: var(--mainWhite) !important;
+}
+
+.cart-icon {
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: var(--mainYellow); 
 }
